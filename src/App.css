@@ -1,0 +1,305 @@
+/* Default Button Styles */ 
+
+.btn {
+    font-family: "League Spartan", sans-serif;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.btn-1 {
+    font-size: 32px; 
+    font-weight: 700; 
+}
+
+.btn-2, .btn-3 {
+    font-size: 20px; 
+    font-weight: 700; 
+    letter-spacing: -0.33px;
+}
+
+/* Theme 1 Styles */ 
+
+main.theme-1 {
+    background-color: hsl(222, 26%, 31%);
+}
+
+.theme-1 .screen {
+    background-color: hsl(224, 36%, 15%);
+}
+
+.theme-1 .btn-background {
+    background-color: hsl(223, 31%, 20%);
+}
+
+.theme-1 .text__no-btn {
+    color: white; 
+}
+
+.theme-1 .btn-1 {
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(221, 14%, 31%); 
+    box-shadow: inset 0px -4px 0px 0px hsl(28, 16%, 65%); 
+}
+
+.theme-1 .btn-1:hover {
+    background-color: hsl(60, 100%, 99.8%);
+}
+
+.theme-1 .btn-2 {
+    background-color: hsl(225, 21%, 49%);
+    color: white; 
+    box-shadow: inset 0px -4px 0px 0px hsl(224, 28%, 35%); 
+}
+
+.theme-1 .btn-2:hover {
+    background-color: hsl(224.76, 51.22%, 75.88%);
+}
+
+.theme-1 .btn-3 {
+    background-color: hsl(6, 63%, 50%);
+    color: white; 
+}
+
+.theme-1 .btn-3:hover, .theme-1 .slider_container:hover .btn-3 {
+    background-color: hsl(6.08, 92.94%, 66.67%);
+}
+
+.theme-1 .button-container .btn-3 {
+    box-shadow: inset 0px -4px 0px 0px hsl(6, 70%, 34%);
+}
+
+/* Theme 2 Styles */ 
+
+main.theme-2 {
+    background-color: hsl(0, 0%, 90%)
+}
+
+.theme-2 .screen {
+    background-color: hsl(0, 0%, 93%)
+}
+
+.theme-2 .btn-background {
+    background-color: hsl(0, 5%, 81%);
+}
+
+.theme-2 .text__no-btn {
+    color: hsl(60, 10%, 19%); 
+}
+
+.theme-2 .btn-1 {
+    background-color: hsl(30, 25%, 89%);
+    color: hsl(60, 10%, 19%); 
+    box-shadow: inset 0px -4px 0px 0px hsl(35, 11%, 61%);
+}
+
+.theme-2 .btn-1:hover {
+    background-color: hsl(0, 0%, 100%);
+}
+
+.theme-2 .btn-2 {
+    background-color: hsl(185, 42%, 37%); 
+    color: white; 
+    box-shadow: inset 0px -4px 0px 0px hsl(185, 58%, 25%);
+}
+
+.theme-2 .btn-2:hover {
+    background-color: hsl(184.67, 40.18%, 56.08%);
+}
+
+.theme-2 .btn-3 {
+    background-color: hsl(25, 98%, 40%); 
+    color: white; 
+}
+
+.theme-2 .btn-3:hover, .theme-2 .slider_container:hover .btn-3 {
+    background-color: hsl(24.18, 100%, 61.57%)
+}
+
+.theme-2 .button-container .btn-3 {
+    box-shadow: inset 0px -4px 0px 0px hsl(25, 99%, 27%);
+}
+
+/* Theme 3 Styles */ 
+
+main.theme-3 {
+    background-color: hsl(268, 75%, 9%);
+}
+
+.theme-3 .screen {
+    background-color: hsl(268, 71%, 12%);
+}
+
+.theme-3 .btn-background {
+    background-color: hsl(268, 71%, 12%);
+}
+
+.theme-3 .text__no-btn {
+    color: hsl(52, 100%, 62%); 
+}
+
+.theme-3 .btn-1 {
+    background-color: hsl(268, 47%, 21%);
+    color: hsl(52, 100%, 62%); 
+    box-shadow: inset 0px -4px 0px 0px hsl(290, 70%, 36%);
+}
+
+.theme-3 .btn-1:hover {
+    background-color: hsl(268, 53.57%, 43.92%);
+}
+
+.theme-3 .btn-2 {
+    background-color: hsl(281, 89%, 26%);
+    color: white; 
+    box-shadow: inset 0px -4px 0px 0px hsl(285, 91%, 52%);
+}
+
+.theme-3 .btn-2:hover {
+    background-color: hsl(280.48, 56.25%, 43.92%);
+}
+
+.theme-3 .btn-3 {
+    background-color: hsl(176, 100%, 44%); 
+}
+
+.theme-3 .btn-3:hover, .theme-3 .slider_container:hover .btn-3 {
+    background-color: hsl(176.11, 100%, 78.82%);
+}
+
+.theme-3 .button-container .btn-3 {
+    box-shadow: inset 0px -4px 0px 0px hsl(177, 92%, 70%);
+}
+
+/* Non Theme Related App Styles */ 
+
+main {
+    padding: 31px 24px; 
+}
+
+section {
+    max-width: 327px; 
+    min-width: 327px; 
+    margin: auto; 
+}
+
+header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px; 
+}
+
+header h1 {
+    font-size: 32px; 
+}
+
+.slider_container {
+    width: 71px; 
+    height: 26px; 
+    border-radius: 15px; 
+    grid-column: 2/3;
+    grid-row: 2/3; 
+    display: flex; 
+    align-items: center;
+    padding: 0 5px; 
+    position: relative; 
+}
+
+.slider_range {
+    width: 100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0;
+    bottom: 0; 
+    border: 1px solid black; 
+    opacity: 0;
+    cursor: pointer; 
+}
+
+.slider_ball {
+    height: 16px; 
+    width: 16px; 
+    background-color: black;
+    border-radius: 50%; 
+}
+
+.theme-grid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+.slider_title {
+    grid-column: 1/2; 
+    grid-row: 2/3; 
+    display: flex;
+    align-items: center;
+    font-size: 12px; 
+    font-weight: bold; 
+    letter-spacing: 1px;
+}
+
+.slider_numbers {
+    grid-column: 2/3; 
+    display: flex; 
+    justify-content: space-around; 
+    font-weight: bold; 
+    font-size: 12px; 
+    padding-bottom: 3px; 
+}
+
+.result-panel {
+    font-weight: bold; 
+    display: flex; 
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 24px; 
+    height: 88px; 
+    margin-bottom: 24px; 
+    border-radius: 10px; 
+}
+
+.result-panel span {
+    white-space: nowrap; 
+}
+
+.button-container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 13px; 
+    padding: 24px; 
+    border-radius: 10px; 
+}
+
+button {
+    height: 64px; 
+}
+
+.button-container_last-row {
+    grid-row: 5/6; 
+    grid-column: span 2;
+}
+
+@media screen and (min-width: 588px) {
+    main {
+        padding: 98px 0; 
+    }
+    section {
+        max-width: 540px; 
+        min-width: 540px; 
+    }
+    .result-panel {
+        padding-right: 32px; 
+        height: 128px; 
+    }
+    .button-container {
+        padding: 32px 30px; 
+        gap: 25px; 
+    }
+    .btn-1 {
+        font-size: 40px; 
+    }
+    .btn-2, .btn-3 {
+        font-size: 28px; 
+    }
+}
